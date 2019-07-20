@@ -1,0 +1,11 @@
+# Red Light Green Light exception policy.
+
+# This file contains all "expected failures" that rlgl will give a
+# pass on.
+
+# Anything with an extremely low score from Aqua will get
+# ignored.
+{ "report": "^aqua", "score": "0..2" }
+
+
+
